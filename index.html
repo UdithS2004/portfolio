@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udith&nbsp;Sreejith&nbsp;– Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-Tm7bmxLxyDeCz9AuLdtrrzFJyyMyShg0uzG7pUEFVoYuo8OPUOCx7AxVWbPu5hXfJmIjATLDy71y7RiqBiPrKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero/Header section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Udith&nbsp;Sreejith</h1>
+      <p class="tagline">Informatics &amp; Environmental Studies Student</p>
+      <p class="contact">
+        <a href="tel:+12068867843" title="Call">
+          <i class="fa-solid fa-phone"></i>
+          <span>(206) 886‑7843</span>
+        </a>
+        <a href="mailto:udisree@gmail.com" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+          <span>udisree@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/udith-sreejith" target="_blank" rel="noopener" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/UdithS2004" target="_blank" rel="noopener" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </p>
+    </div>
+  </header>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>University of Washington</strong>, Seattle, WA (Expected June&nbsp;2026)</p>
+      <p>B.S.&nbsp;Informatics &amp; B.A.&nbsp;Environmental&nbsp;Studies</p>
+      <p class="coursework"><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Distributed Systems, Machine Learning, Product Management, Databases and Data Modeling, Client‑Side Development, Probability and Statistics, Data Science, Software Engineering.</p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Data and AI Engineering Intern&nbsp;|&nbsp;Seattle&nbsp;Aquarium</h3>
+        <span class="job-date">Jun&nbsp;2025 – Aug&nbsp;2025&nbsp;· Seattle, WA</span>
+        <ul>
+          <li>Designed and implemented an automated computer‑vision pipeline (Python, OpenCV) to process 150+ underwater videos and extract over 1,000 high‑quality frames, reducing manual review time by 90% while ensuring deterministic and repeatable processing.</li>
+          <li>Engineered interval‑based sampling and blur‑detection heuristics to enforce consistent quality standards across heterogeneous video sources, reducing downstream model noise and improving dataset reliability.</li>
+          <li>Built AI‑driven data pipelines to curate and structure labelled underwater image datasets for supervised CoralNet model training, replacing manual image selection workflows with a standardized self‑serve system used across research workflows.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Software Engineering Intern – Data Automation&nbsp;|&nbsp;Rubix&nbsp;Data&nbsp;Sciences</h3>
+        <span class="job-date">Jul&nbsp;2024 – Sep&nbsp;2024&nbsp;· Mumbai, India</span>
+        <ul>
+          <li>Designed and implemented a scalable Python‑based ETL system to process over 1,000 XML files into structured datasets, reducing processing time by 80% while improving data consistency and reliability across downstream analytics workflows.</li>
+          <li>Developed automated ESG analytics and visualization pipelines using Pandas and Matplotlib to generate insights for internal analysts, improving reporting efficiency and enabling faster exploration of sustainability metrics.</li>
+          <li>Implemented septile‑based segmentation in R (ggplot2, dplyr) to analyze ESG performance distributions across companies, replacing manual data preparation and improving the accuracy and repeatability of analytical workflows.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Software Engineering Intern – Cloud Systems&nbsp;|&nbsp;NTT&nbsp;Data&nbsp;Services</h3>
+        <span class="job-date">Jul&nbsp;2023 – Sep&nbsp;2023&nbsp;· Plano, TX</span>
+        <ul>
+          <li>Analyzed VMware‑based virtualized infrastructure to evaluate server resource utilization (CPU, memory, and storage), identifying potential consolidation opportunities and supporting infrastructure capacity planning within enterprise virtualization environments.</li>
+          <li>Evaluated migration strategies for transitioning virtualized workloads from VMware to AWS by mapping resource requirements to appropriate EC2 instance configurations and comparing cost‑performance trade‑offs to inform cloud architecture decisions.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>EcoPulse&nbsp;API — Environmental Data Backend</h3>
+        <span class="project-technologies">FastAPI, SQLAlchemy, PostgreSQL, Python</span>
+        <p>Built a RESTful API with FastAPI and SQLAlchemy to ingest, store, and query environmental data, designing normalized PostgreSQL schemas to ensure efficient data access and maintain data integrity. Implemented 24‑hour and 7‑day aggregation pipelines with alerting logic to detect environmental anomalies (e.g., AQI thresholds), and configured multi‑environment deployments supporting SQLite for development and PostgreSQL for production.</p>
+      </div>
+      <div class="project">
+        <h3>Searchify — Full‑Text Search Backend</h3>
+        <span class="project-technologies">Python, FastAPI</span>
+        <p>Built a full‑text search backend using inverted indexing and TF‑IDF scoring to efficiently rank documents by relevance for user queries. Implemented trie‑based autocomplete for fast prefix look‑ups and real‑time search suggestions, improving query responsiveness. Exposed search functionality through REST endpoints and validated correctness through structured API testing.</p>
+      </div>
+      <div class="project">
+        <h3>Save&nbsp;the&nbsp;City — Full&nbsp;Stack Web App</h3>
+        <span class="project-technologies">HTML, CSS, React, Firebase, JavaScript, Leaflet</span>
+        <p>Built a full‑stack web platform connecting community gardens, volunteers, and residents through an interactive map interface using Leaflet to display nearby gardens, produce availability, and volunteer opportunities. Designed role‑based user workflows (garden hosts, volunteers, consumers) with conditional UI rendering, enabling hosts to register gardens, schedule volunteer and harvest events, and manage garden data stored in a Firebase backend. Implemented dynamic filtering and search features for produce types and garden availability, integrating responsive UI updates and real‑time database interactions to help users efficiently discover nearby food resources and register for events.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Python, Java, R, JavaScript, SQL, HTML/CSS</p>
+      <p><strong>Frameworks/Tools:</strong> Git, OpenCV, Pandas, Matplotlib, dplyr, ggplot2, FastAPI, SQLAlchemy, PostgreSQL, Node.js, React</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026&nbsp;Udith&nbsp;Sreejith. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
