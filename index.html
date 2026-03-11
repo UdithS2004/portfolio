@@ -27,7 +27,8 @@
           <i class="fa-solid fa-envelope"></i>
           <span>udisree@gmail.com</span>
         </a>
-        <a href="https://linkedin.com/in/udith-sreejith" target="_blank" rel="noopener" title="LinkedIn">
+        <!-- Updated LinkedIn link to full profile URL -->
+        <a href="https://www.linkedin.com/in/udith-sreejith-12018a247/" target="_blank" rel="noopener" title="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
           <span>LinkedIn</span>
         </a>
@@ -86,21 +87,28 @@
   <section id="projects" class="section">
     <div class="container">
       <h2>Projects</h2>
-      <div class="project">
-        <h3>EcoPulse&nbsp;API — Environmental Data Backend</h3>
-        <span class="project-technologies">FastAPI, SQLAlchemy, PostgreSQL, Python</span>
-        <p>Built a RESTful API with FastAPI and SQLAlchemy to ingest, store, and query environmental data, designing normalized PostgreSQL schemas to ensure efficient data access and maintain data integrity. Implemented 24‑hour and 7‑day aggregation pipelines with alerting logic to detect environmental anomalies (e.g., AQI thresholds), and configured multi‑environment deployments supporting SQLite for development and PostgreSQL for production.</p>
-      </div>
-      <div class="project">
-        <h3>Searchify — Full‑Text Search Backend</h3>
-        <span class="project-technologies">Python, FastAPI</span>
-        <p>Built a full‑text search backend using inverted indexing and TF‑IDF scoring to efficiently rank documents by relevance for user queries. Implemented trie‑based autocomplete for fast prefix look‑ups and real‑time search suggestions, improving query responsiveness. Exposed search functionality through REST endpoints and validated correctness through structured API testing.</p>
-      </div>
-      <div class="project">
-        <h3>Save&nbsp;the&nbsp;City — Full&nbsp;Stack Web App</h3>
-        <span class="project-technologies">HTML, CSS, React, Firebase, JavaScript, Leaflet</span>
-        <p>Built a full‑stack web platform connecting community gardens, volunteers, and residents through an interactive map interface using Leaflet to display nearby gardens, produce availability, and volunteer opportunities. Designed role‑based user workflows (garden hosts, volunteers, consumers) with conditional UI rendering, enabling hosts to register gardens, schedule volunteer and harvest events, and manage garden data stored in a Firebase backend. Implemented dynamic filtering and search features for produce types and garden availability, integrating responsive UI updates and real‑time database interactions to help users efficiently discover nearby food resources and register for events.</p>
-      </div>
+      <!-- Each project is wrapped in an anchor tag so the entire card is clickable and directs to the appropriate repository -->
+      <a href="https://github.com/UdithS2004/Ecopulse-API" target="_blank" rel="noopener" class="project-link">
+        <div class="project">
+          <h3><i class="fa-solid fa-leaf"></i> EcoPulse&nbsp;API — Environmental Data Backend</h3>
+          <span class="project-technologies">FastAPI, SQLAlchemy, PostgreSQL, Python</span>
+          <p>Built a RESTful API with FastAPI and SQLAlchemy to ingest, store, and query environmental data, designing normalized PostgreSQL schemas to ensure efficient data access and maintain data integrity. Implemented 24‑hour and 7‑day aggregation pipelines with alerting logic to detect environmental anomalies (e.g., AQI thresholds), and configured multi‑environment deployments supporting SQLite for development and PostgreSQL for production.</p>
+        </div>
+      </a>
+      <a href="https://github.com/UdithS2004/Searchify" target="_blank" rel="noopener" class="project-link">
+        <div class="project">
+          <h3><i class="fa-solid fa-search"></i> Searchify — Full‑Text Search Backend</h3>
+          <span class="project-technologies">Python, FastAPI</span>
+          <p>Built a full‑text search backend using inverted indexing and TF‑IDF scoring to efficiently rank documents by relevance for user queries. Implemented trie‑based autocomplete for fast prefix look‑ups and real‑time search suggestions, improving query responsiveness. Exposed search functionality through REST endpoints and validated correctness through structured API testing.</p>
+        </div>
+      </a>
+      <a href="https://github.com/UdithS2004/save-the-city" target="_blank" rel="noopener" class="project-link">
+        <div class="project">
+          <h3><i class="fa-solid fa-city"></i> Save&nbsp;the&nbsp;City — Full&nbsp;Stack Web App</h3>
+          <span class="project-technologies">HTML, CSS, React, Firebase, JavaScript, Leaflet</span>
+          <p>Built a full‑stack web platform connecting community gardens, volunteers, and residents through an interactive map interface using Leaflet to display nearby gardens, produce availability, and volunteer opportunities. Designed role‑based user workflows (garden hosts, volunteers, consumers) with conditional UI rendering, enabling hosts to register gardens, schedule volunteer and harvest events, and manage garden data stored in a Firebase backend. Implemented dynamic filtering and search features for produce types and garden availability, integrating responsive UI updates and real‑time database interactions to help users efficiently discover nearby food resources and register for events.</p>
+        </div>
+      </a>
     </div>
   </section>
 
